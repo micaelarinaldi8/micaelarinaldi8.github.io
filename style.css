@@ -27,8 +27,8 @@ html {
 }
 
 .container {
-    width: 350px;
-    margin: 32px auto 0 auto;
+    width: auto;
+    margin: auto auto auto auto;
 }
 
 .xmas-stage {
