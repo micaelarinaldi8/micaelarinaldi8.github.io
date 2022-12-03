@@ -1,0 +1,169 @@
+/*
+    Colori:
+    color blue: #3535EC;
+    color blue dark: #120945;
+    color gray: #D4D7F5;
+    color-green: #306753;
+    color pink: #DE7EB6;
+    color yellow: #F2AD41;
+    color white: #ffffff;
+*/
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    background-color: #1d5a0b;
+    font-family: 'Livvic', sans-serif;
+    line-height: 1;
+}
+
+.container {
+    width: 350px;
+    margin: 32px auto 0 auto;
+}
+
+.xmas-stage {
+    position: relative;
+    height: 600px;
+}
+
+.panel {
+    background-color: #f7f5a2;
+    padding: 16px 24px;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 140px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 13px;
+    font-size: 22px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-block {
+    color: #ff0000;
+    text-align: center;
+    font-weight: 600;
+}
+.counter-block:last-child {
+    color: #1e720d;
+}
+.counter-block-number {
+    font-size: 48px;
+}
+.counter-block-label {
+    font-size: 20px;
+}
+/*Albero */ 
+.albero {
+    bottom: -33px;
+    right: -5px;
+    position: absolute;
+}
+
+/* Fiocchi */
+.fiocco_1 {
+    position: absolute;
+    width: 120px;
+    right:305px;
+    bottom:57px;
+}
+.fiocco_2 {
+    position: absolute;
+    width: 120px;
+    right:-67px;
+    bottom:448px;
+}
+.fiocco_3 {
+    position: absolute;
+    width: 120px;
+    right:-28px;
+    bottom:145px;
+}
+.fiocco_4 {
+    position: absolute;
+    width: 120px;
+    right:300px;
+    bottom:412px;
+}
+
+/* Ghirlanda */
+.Ghirlanda {
+    position: absolute;
+    right: 0px;
+    top:-205px;
+}
+
+
+.fiocco_1:hover {
+    animation-name: jingle;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.fiocco_2:hover {
+    animation-name: jingle;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.fiocco_3:hover {
+    animation-name: jingle;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.fiocco_4:hover {
+    animation-name: jingle;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.Ghirlanda:hover {
+    animation-name: bump;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.albero:hover {
+    animation-name: bump;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* Animation */
+@keyframes jingle {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes bump {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
