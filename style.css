@@ -1,13 +1,4 @@
-/*
-    Colori:
-    color blue: #3535EC;
-    color blue dark: #120945;
-    color gray: #D4D7F5;
-    color-green: #306753;
-    color pink: #DE7EB6;
-    color yellow: #F2AD41;
-    color white: #ffffff;
-*/
+
 
 /* CSS Reset */
 * {
@@ -64,7 +55,7 @@ h1 {
     font-weight: 600;
 }
 .counter-block:last-child {
-    color: #1e720d;
+    color: #700000;
 }
 .counter-block-number {
     font-size: 48px;
